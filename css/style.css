@@ -1,0 +1,32 @@
+body{
+    max-width: 95%;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+.product{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+img{
+    max-width: 200;
+}
+.buttonAdd{
+    color:lightgreen;
+    font-size: 25px;
+    background-color: greenyellow;
+    border: 2px solid green;
+    padding: 5px;
+    border-radius: 5px;
+}
+.buttonRem{
+    color: lightcoral;
+    font-size: 25px;
+    background-color: maroon;
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 5px;
+}
